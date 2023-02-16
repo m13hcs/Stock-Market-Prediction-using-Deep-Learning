@@ -10,7 +10,7 @@ import streamlit as st
 st.title("Stock Trend Prediction")
 user_input=st.text_input("Enter Stock Ticker","AAPL")
 
-dh= pd.read_excel(r"C:\Users\Training\Downloads\Database.xlsx")
+dh= pd.read_excel(r"Database.xlsx")
 
 
 
